@@ -1,0 +1,169 @@
+FRONTEND & BACKEND FUNDAMENTALS + HTML BASICS NOTES
+
+WEB DEVELOPMENT OVERVIEW
+
+Frontend (Client Side) - Deals with everything the user sees and
+interacts with inside the browser. - Runs on the browser (Chrome, Edge,
+Firefox, etc.)
+
+Responsibilities: - UI design and layout - Styling and components - Data
+display - API integration - Routing/navigation - Form validation -
+State/data management
+
+Technologies: - HTML - CSS - JavaScript - React / Next.js
+
+Backend (Server Side) - Handles server, database, and business logic. -
+Runs on server/system.
+
+Responsibilities: - Database connection and management - Creating REST
+APIs - Data validation - Authentication/authorization - Business logic
+implementation - Third‑party API integration - Sending data to frontend
+
+Technologies: - Node.js - Express.js - Nest.js - Databases (MongoDB,
+MySQL, etc.)
+
+BASIC WEB TERMS
+
+Web Page: - Single HTML file loaded in browser.
+
+Website: - Collection of multiple web pages with a domain/address.
+
+Web App: - Interactive website with logic and database. Examples:
+Facebook, Flipkart, Gmail
+
+CORE FRONTEND TECHNOLOGIES
+
+HTML: - Structure of UI (Skeleton)
+
+CSS: - Styling and design (Colors, layout, spacing, animation)
+
+JavaScript: - Dynamic behavior and logic (Brain)
+
+React: - JavaScript library for building component-based UI easily and
+efficiently
+
+BACKEND TECHNOLOGIES
+
+Node.js: - Runtime environment to run JavaScript outside the browser
+
+Express.js: - Backend framework for creating servers and APIs
+
+Nest.js: - Structured and scalable backend framework
+
+Next.js: - React framework with routing and server-side rendering
+
+HTML FUNDAMENTALS
+
+HTML (HyperText Markup Language): - Used to create structure of web
+pages - Provides instructions to browser to render UI
+
+HTML ELEMENTS
+
+Definition: - Building blocks of web pages
+
+Format: content
+
+Types: 1. Paired Tag -> has opening and closing tag Example:
+Hello
+2.  Self Closing Tag -> no closing tag Example:
+
+Children: - Content between opening and closing tags
+
+Can we create HTML elements? - No, we use predefined elements only
+
+MEASUREMENT UNITS
+
+1 inch = 96 pixels 1 cm ≈ 37 pixels
+
+ATTRIBUTES
+
+Definition: - Properties of an HTML element - Provide extra information
+to browser
+
+Format: key=“value”
+
+Rules: - Always key-value pair - Value in double quotes - Multiple
+attributes allowed
+
+Example:
+
+COMMON HTML ELEMENTS
+
+Button: Click
+
+Headings:
+to
+Image:
+
+Table:
+thead tbody tfoot
+Table elements: - tr -> row - td -> column - th -> header cell
+
+Common attributes: - width - height - colspan - rowspan - align - valign
+
+DOCUMENT DECLARATION
+
+<!DOCTYPE html> - Not a tag - Instruction to browser - Defines HTML5
+document type
+
+SEMANTIC ELEMENTS
+
+-   header
+-   nav
+-   main
+-   section
+-   article
+-   footer
+-   aside
+-   details
+-   summary
+
+Benefits: - Better SEO - Better readability - Meaningful structure
+
+DIV vs SECTION
+
+div: - Generic container - No meaning
+
+section: - Semantic block - Represents grouped content
+
+ANCHOR TAG
+
+Link
+
+Uses: - Inter navigation (external links) - Intra navigation (internal
+links)
+
+Attributes: - href - target - title
+
+IFRAME
+
+-   Embeds another webpage
+
+FORMS
+
+Sub-elements: - input - textarea - label - select - option - optgroup -
+progress - datalist
+
+Input types: - text - password - radio - checkbox - email - number
+
+Radio button: - Select one option only
+
+Checkbox: - Select multiple options
+
+DETAILS & SUMMARY
+
+Title
+Content
+Used for collapsible content
+
+QUICK REVISION
+
+Frontend vs Backend: Frontend -> UI Backend -> Logic + Database
+
+HTML vs CSS vs JavaScript: HTML -> Structure CSS -> Style JavaScript ->
+Logic
+
+Paired vs Self-closing: Paired -> has closing tag Self-closing -> no
+closing tag
+
+Attribute format: key=“value”
