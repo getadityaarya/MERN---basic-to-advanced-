@@ -1,0 +1,229 @@
+DAY 01 – WEB DEVELOPMENT & HTML FUNDAMENTALS
+
+  ------------------------------------
+  1. INTRODUCTION TO WEB DEVELOPMENT
+  ------------------------------------
+
+Web development is the process of building websites and web applications
+that run inside a browser.
+
+Examples: - Facebook - Flipkart - Gmail - Amazon
+
+These applications allow users to interact with data dynamically.
+
+  --------------------------
+  2. TYPES OF APPLICATIONS
+  --------------------------
+
+1)  Web App
+    -   Runs inside browser
+    -   No installation required
+    -   Example: Gmail
+2)  Standalone Mobile App
+    -   Installed from Play Store/App Store
+    -   Example: WhatsApp, Instagram
+3)  Cross-platform App
+    -   Built using React Native / Flutter
+    -   Works on Android + iOS
+
+  ---------------------------------
+  3. WEB APPLICATION ARCHITECTURE
+  ---------------------------------
+
+A web application has 3 main layers:
+
+Frontend → Backend → Database (FE) (BE) (DB)
+
+  ---------------------------
+  4. FRONTEND (CLIENT SIDE)
+  ---------------------------
+
+Definition: Frontend is the part of the application that users see and
+interact with.
+
+Runs on: - Browser
+
+Responsibilities: - Create UI (buttons, forms, pages) - Styling and
+design - Data management - API integration - Routing/navigation - Form
+validation - Handle user events
+
+Technologies: - HTML - CSS - JavaScript - React / Next.js
+
+  --------------------------
+  5. BACKEND (SERVER SIDE)
+  --------------------------
+
+Definition: Backend handles logic, processing, and database operations.
+
+Runs on: - Server/System
+
+Responsibilities: - Create REST APIs - Connect database - Data
+validation - Authentication - Business logic - Third-party API
+integration
+
+Technologies: - Node.js - Express.js - Nest.js - Spring Boot - Django -
+Laravel
+
+  ------------------
+  6. DATABASE (DB)
+  ------------------
+
+Purpose: Stores application data permanently.
+
+Types:
+
+SQL (Relational) - MySQL - Oracle - PostgreSQL
+
+NoSQL - MongoDB
+
+MERN uses MongoDB.
+
+  ----------------------------------
+  7. HOW THE WEB WORKS (IMPORTANT)
+  ----------------------------------
+
+Request–Response Cycle:
+
+Step 1: User enters URL Step 2: Browser sends request to server Step 3:
+Server processes request Step 4: Server sends HTML/CSS/JS Step 5:
+Browser renders page
+
+Flow: Browser → Server → Response → Browser renders UI
+
+  --------------------
+  8. BASIC WEB TERMS
+  --------------------
+
+Web Page: - Single HTML file
+
+Website: - Collection of multiple pages with domain
+
+Web App: - Interactive website with backend + database
+
+  -------------------------
+  9. INTRODUCTION TO HTML
+  -------------------------
+
+HTML = HyperText Markup Language
+
+Used to: - Create structure of web pages - Build UI components
+
+Think: HTML = Skeleton of website
+
+  -------------------
+  10. HTML ELEMENTS
+  -------------------
+
+Definition: Building blocks of HTML.
+
+Format: content
+
+Example:
+Hello
+Types:
+
+1)  Paired Tag Has opening and closing tag Example:
+2)  Self Closing Tag No closing tag Example:
+
+Children: Content inside element
+
+  ----------------
+  11. ATTRIBUTES
+  ----------------
+
+Definition: Extra properties that give additional information to
+elements.
+
+Format: key=“value”
+
+Example:
+
+Rules: - Always key-value pair - Value inside double quotes - Multiple
+attributes allowed
+
+  --------------------------
+  12. COMMON HTML ELEMENTS
+  --------------------------
+
+Headings:
+to
+Paragraph:
+Button:
+
+Image:
+
+Anchor (link):
+
+Div:
+Section:
+  ------------
+  13. TABLES
+  ------------
+
+Used to display data in rows and columns.
+
+Structure:
+
+Elements: - tr -> row - td -> cell - th -> header
+
+Attributes: - width - height - colspan - rowspan
+
+  -----------
+  14. FORMS
+  -----------
+
+Used to collect user input.
+
+Form elements: - input - textarea - label - select - option - checkbox -
+radio - datalist - progress
+
+Radio: Select only one option
+
+Checkbox: Select multiple options
+
+  -----------------------
+  15. SEMANTIC ELEMENTS
+  -----------------------
+
+Provide meaning to structure and improve SEO.
+
+Examples: - header - nav - main - section - article - footer - aside -
+details - summary
+
+  --------------------
+  16. DIV vs SECTION
+  --------------------
+
+div: - Generic container - No meaning
+
+section: - Semantic container - Represents grouped content
+
+  -----------------------
+  17. MEASUREMENT UNITS
+  -----------------------
+
+1 inch = 96 pixels 1 cm ≈ 37 pixels
+
+  --------------------
+  18. QUICK REVISION
+  --------------------
+
+Frontend -> UI Backend -> Logic + APIs Database -> Data storage
+
+HTML -> Structure CSS -> Style JavaScript -> Logic
+
+Paired tag -> has closing Self closing -> no closing
+
+  -------------------------------------
+  19. PRACTICE TASKS (VERY IMPORTANT)
+  -------------------------------------
+
+Task 1: Create a simple resume page using only HTML
+
+Task 2: Create a table showing student marks
+
+Task 3: Create a registration form
+
+Task 4: Use semantic tags to structure a webpage
+
+END OF DAY 01 NOTES
